@@ -1,0 +1,22 @@
+{
+  "name": "js-project-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for JS project development",
+  "main": "index.js",
+  "scripts": {
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+  },
+  "author": "Trong Nguyen <trong.nd@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "flow-bin": "^0.39.0"
+  },
+  "dependencies": {
+  }
+}
